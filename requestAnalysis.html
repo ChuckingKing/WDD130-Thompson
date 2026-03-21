@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 Project #23 (wdd130-Thompson)</title>
+</head>
+<body>
+    <header>
+
+        <!-- This is to be defined by the dev lead -->
+
+        <div id="nav-logo">
+            <div class="branding">
+                <a href="index.html"><img src="images/logo.png" alt="Engineering Consulting"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="requestAnalysis.html">Request Analysis</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="mainHome">
+        <h1>Request Analysis</h1>
+
+        <p>Please Fill Out this Form</p>
+        
+        <form>
+
+            <!-- Basic Information -->
+            <h2>Project Information</h2>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="primaryContact">Primary Contact:</label>
+            <input type="text" id="primaryContact" name="primaryContact" required>
+
+            <label for="secondaryContact">Secondary Contact (optional):</label>
+            <input type="text" id="secondaryContact" name="secondaryContact">
+
+            <hr>
+
+            <!-- Multiple Choice -->
+            <h2>Project Components</h2>
+
+            <label>
+                <input type="checkbox" name="components" value="impactFeeFacilitiesPlan">
+                Impact Fee Facilities Plan
+            </label>
+
+            <label>
+                <input type="checkbox" name="components" value="impactFeeAnalysis">
+                Impact Fee Analysis
+            </label>
+
+            <!-- Master Plan (single choice) -->
+            <label for="masterPlan">Master Plan (select one):</label>
+            <select id="masterPlan" name="masterPlan">
+                <option value="">-- Select --</option>
+                <option value="masterPlan">Master Plan</option>
+            </select>
+
+            <hr>
+
+            <!-- Utility Section -->
+            <h2>Utilities</h2>
+
+            <p>Select all utilities involved:</p>
+
+            <label><input type="checkbox" name="utility" value="drinkingWater">Drinking Water</label>
+            <label><input type="checkbox" name="utility" value="parksRecreation">Parks and Recreation</label>
+            <label><input type="checkbox" name="utility" value="powerLight">Power and Light</label>
+            <label><input type="checkbox" name="utility" value="pressurizedIrrigation">Pressurized Irrigation</label>
+            <label><input type="checkbox" name="utility" value="publicSafety">Public Safety</label>
+            <label><input type="checkbox" name="utility" value="sanitarySewer">Sanitary Sewer</label>
+            <label><input type="checkbox" name="utility" value="stormDrain">Storm Drain</label>
+            <label><input type="checkbox" name="utility" value="transportation">Transportation</label>
+
+            <!-- Update for X years -->
+            <label for="updateYears">Update for (#) Years:</label>
+            <input type="number" id="updateYears" name="updateYears" min="1">
+
+            <!-- Add another utility -->
+            <label for="additionalUtility">Add Another Utility (+):</label>
+            <input type="text" id="additionalUtility" name="additionalUtility">
+
+            <hr>
+
+            <!-- Additional Studies -->
+            <h2>Additional Studies</h2>
+
+            <label><input type="checkbox" name="rateStudy" value="rateStudy"> Rate Study</label>
+            <label><input type="checkbox" name="waterConservation" value="waterConservation"> Water Conservation</label>
+            <label><input type="checkbox" name="waterRights" value="waterRights"> Water Rights</label>
+
+            <hr>
+
+            <!-- Estimated Cost -->
+            <label for="estimatedCost">Estimated Cost ($25,000 – $1,200,000):</label>
+            <input type="number" id="estimatedCost" name="estimatedCost" min="25000" max="1200000">
+
+            <!-- Submit -->
+            <button type="submit">Submit</button>
+        </form>
+    
+    </main>
+
+    <footer>
+       <!-- This is to be defined by the dev lead -->
+    </footer>
+</body>
+</html>
