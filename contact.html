@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Engineering Consulting</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-box">
+      <img src="images/logo.png" alt="Engineering Consulting logo" class="logo" />
+    </div>
+
+    <div class="header-right">
+      <p class="site-owner">Gerrit Thompson</p>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="request.html">Request an Analysis</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &gt; <span>Contact</span>
+    </div>
+
+    <section class="page-hero">
+      <h1>Contact</h1>
+    </section>
+
+    <section class="top-image-section">
+      <img src="images/contact-office.png" alt="Engineering team meeting in an office" class="page-image" />
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-card">
+        <h2>Get in Touch</h2>
+
+        <form class="contact-form">
+          <label for="organization">Organization / Entity</label>
+          <input type="text" id="organization" name="organization" required />
+
+          <label for="primary-contact">Primary Contact</label>
+          <input type="text" id="primary-contact" name="primary-contact" required />
+
+          <label for="secondary-contact">Secondary Contact (Optional)</label>
+          <input type="text" id="secondary-contact" name="secondary-contact" />
+
+          <label for="message">Contact Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+
+        <p class="contact-info">
+          You may also contact [Engineering Firm] at
+          <a href="mailto:email@engineeringfirm.com">email@engineeringfirm.com</a>
+          or
+          <a href="tel:5555555555">555-555-5555</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="bottom-image-section">
+      <img src="images/contact-fieldwork.png" alt="Engineering team reviewing a street project" class="page-image" />
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-column">
+      <a href="-">About Us</a>
+      <a href="-">News</a>
+      <a href="-">Awards</a>
+      <a href="-">Testimonials</a>
+      <a href="-">Professional Services</a>
+    </div>
+
+    <div class="footer-column">
+      <p>Featured Projects:</p>
+      <a href="-">[REDACTED]</a>
+      <a href="-">[REDACTED]</a>
+      <a href="-">Client Login</a>
+      <p>&copy; [Engineering Firm]</p>
+    </div>
+
+    <div class="footer-column footer-logo">
+      <img src="images/logo.png" alt="Engineering Consulting logo" class="logo" />
+    </div>
+  </footer>
+</body>
+</html>
