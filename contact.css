@@ -144,6 +144,73 @@ a:hover {
   border-radius: 6px;
 }
 
+
+
+/* Added by Luis Cordeiro for Request Analysis page */
+
+/* FORM WRAPPER */
+.styled-form {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--accent-color);
+  border-radius: 6px;
+}
+
+/* TWO-COLUMN ROWS */
+.form-row {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  font-weight: bold;
+  font-family: var(--body-font);
+}
+
+/* INPUT, SELECT, NUMBER */
+.form-row input,
+.form-row select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: var(--body-font);
+  font-size: 1rem;
+}
+
+/* CHECKBOX GRID (MULTIPLE ITEMS) */
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 8px 15px;
+  margin-bottom: 20px;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+  padding: 12px 20px;
+  background-color: var(--accent-color2);
+  color: #222;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--header-font);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+
+/* END for Request Analysis page */
+
+
 .contact-section {
   max-width: 1000px;
   margin: 30px auto;
@@ -269,4 +336,14 @@ a:hover {
     text-align: center;
     justify-content: center;
   }
+  
+  /* Added by Luis Cordeiro for Request Analysis page */
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .form-row label {
+    margin-bottom: -8px;
+  }
+  
+  
 }
