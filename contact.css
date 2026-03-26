@@ -28,6 +28,10 @@ h1{
   margin: 0;
 }
 
+.styled-form h2 {
+  text-align: left; 
+}
+
 p {
   line-height: 1.6;
   margin: 0;
