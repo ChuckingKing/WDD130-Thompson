@@ -252,7 +252,7 @@ a:hover {
   text-align: center;
   margin-top: 0;
   font-family: Oswald, Arial, Helvetica, sans-serif;
-  color: #ffffff; /* FIXED */
+  color: #436585; /* FIXED */
 }
 
 .contact-form {
@@ -300,6 +300,7 @@ a:hover {
 .contact-info a {
   color: #ffffff;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .contact-info a:hover {
@@ -323,6 +324,7 @@ a:hover {
 
 .site-footer a:hover {
   color: #cead7e;
+  text-decoration: none;
 }
 
 .footer-column {
