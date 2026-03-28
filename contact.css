@@ -239,7 +239,7 @@ a:hover {
 }
 
 .contact-card {
-  background-color: #436585;
+  background-color: var(--accent-color);
   padding: 30px;
   border-radius: 8px;
   max-width: 700px;
