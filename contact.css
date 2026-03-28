@@ -298,13 +298,14 @@ a:hover {
 }
 
 .contact-info a {
-  color: #ffffff;
+  color: #436585;
   font-weight: bold;
   text-decoration: none;
 }
 
 .contact-info a:hover {
   color: #cead7e;
+  text-decoration: none;
 }
 
 .site-footer {
