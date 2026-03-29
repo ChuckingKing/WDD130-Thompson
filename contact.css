@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 :root {
   --primary-color: #436585;
   --secondary-color: #ffffff;
   --accent-color: #d4dce4;
   --accent-color2: #cead7e;
   --header-font: 'Oswald', Arial, Helvetica, sans-serif;
-  --body-font: 'Source Sans Pro', sans-serif;
+  --body-font: 'Source Sans 3', 'Source Sans Pro', sans-serif;
 }
 body {
   margin: 0;
@@ -39,7 +39,9 @@ p {
 }
 
 .hero-para{
-  margin-top: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
   text-align: center;
 }
 img {
@@ -233,6 +235,50 @@ a:hover {
 
 /* END for Request Analysis page */
 
+
+.request-an-analysis {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.request-analysis-link {
+  display: inline-block;
+  background-color: var(--accent-color2);
+  color: #222222;
+  padding: 16px 48px;
+  border-radius: 4px;
+  font-family: var(--header-font);
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.18);
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.request-analysis-link h3 {
+  margin: 0;
+  color: #222222;
+  font-family: var(--header-font);
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.request-analysis-link:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 5px 14px rgba(67,101,133,0.35);
+}
+
+.request-analysis-link:hover h3 {
+  color: #ffffff;
+}
 
 .contact-section {
   max-width: 1000px;
